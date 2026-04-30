@@ -54,7 +54,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       />
 
       <label>Manufacturer Country</label>
-      <input name="name" value={formData.Manufacturer_Country} onChange={handleChange} required />
+      <input name="Manufacturer_Country" value={formData.Manufacturer_Country} onChange={handleChange} required />
 
       <label>Image URL</label>
       <input name="imageUrl" value={formData.imageUrl} onChange={handleChange} />
